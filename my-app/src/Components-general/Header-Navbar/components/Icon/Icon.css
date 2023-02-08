@@ -1,0 +1,19 @@
+.logo-container {
+    height: 35px;
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.logo-icon {
+    
+}
+.logo-text {
+    width: min-content;
+    display: inline-block;
+    font-family: var(--font-family-inter);
+    font-weight: 700;
+
+}
