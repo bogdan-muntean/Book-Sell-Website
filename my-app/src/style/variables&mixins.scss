@@ -1,7 +1,32 @@
+
 :root {
+    //font size
+    --font-size-default: 15px;
+    --font-size-paragraph: 19px;
+
+    --font-size-header-1: 65px;
+    --font-size-header-2: calc(var(--font-size-header-1) - 10px);
+    --font-size-header-3: calc(var(--font-size-header-1) - 20px);
+    --font-size-header-4: calc(var(--font-size-header-1) - 33px);
+    --font-size-header-5: calc(var(--font-size-header-1) - 41px);
+    --font-size-header-6: calc(var(--font-size-header-1) - 43px);
+
     //colors
     --color-principal: #1B3764;
     --color-second: #FFCA42;
     --color-background-principal: #F5F5F5;
     --color-text-principal: #F6F8FC;
+
+    --line-height-principal: 170%;
+
+    --letter-spacing-principal: -1%;
+}
+
+// Mixins
+@mixin headers-height-spacing-weight-color {
+    line-height: 130%;
+    letter-spacing: -1.5%;
+    font-weight: bold;
+    color: var(--color-principal);
+    vertical-align: top;
 }

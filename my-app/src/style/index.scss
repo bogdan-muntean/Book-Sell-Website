@@ -1,7 +1,48 @@
+@import "variables&mixins";
+
 * {
+    font-family: 'Cardo', serif;
     padding: 0;
     margin: 0;
-
     box-sizing: border-box;
-    font-size: 15px;
+    font-size: var(--font-size-default);
+}
+p {
+    font-size: var(--font-size-paragraph);
+}
+
+//title + headers
+:root{
+    title{
+        font-size: 28px;
+        line-height: 155%;
+        letter-spacing: -1%;
+        font-weight: bold;
+        color: var(--color-principal);
+        vertical-align: middle;
+    }
+    h1 {
+        font-size: var(--font-size-header-1);
+        @include headers-height-spacing-weight-color;
+    }
+    h2 {
+        font-size: var(--font-size-header-2);
+        @include headers-height-spacing-weight-color;
+    }
+    h3 {
+        font-size: var(--font-size-header-3);
+        @include headers-height-spacing-weight-color;
+    }
+    h4 {
+        font-size: var(--font-size-header-4);
+        @include headers-height-spacing-weight-color;
+    }
+    h5 {
+        font-size: var(--font-size-header-5);
+        @include headers-height-spacing-weight-color;
+    }
+    h6 {
+        font-size: var(--font-size-header-6);
+        @include headers-height-spacing-weight-color;
+    }
 }
