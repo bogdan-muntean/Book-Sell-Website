@@ -1,12 +1,14 @@
 import React from 'react';
-import Icon from './components/Icon/Icon';
 import './Header.css';
+import Logo from '../Logo/Logo';
 
 function Header() {
   return (
     <div className='header'>
-      <Icon></Icon>
-        {/* 1.Icon
+      <div className='logo-container'>
+        <Logo colorIcon="var(--color-second)"></Logo>
+      </div>
+        {/* 
         2.Buttons */}
     </div>
   )

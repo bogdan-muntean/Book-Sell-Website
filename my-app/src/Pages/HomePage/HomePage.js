@@ -1,10 +1,15 @@
 import React from 'react'
-import Header from '../../Components-general/Header-Navbar/Header'
+import Banner from '../../Components-general/Banner/Banner'
+
+import './HomePage.css';
+
+
 
 function HomePage() {
   return (
-    <div>
-        <Header></Header>
+    <div className='home-page'>
+        <Banner></Banner>
+        <Banner></Banner>
     </div>
   )
 }

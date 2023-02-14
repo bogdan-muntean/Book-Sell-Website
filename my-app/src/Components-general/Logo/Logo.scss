@@ -1,4 +1,4 @@
-.logo-container {
+.logo {
     height: 35px;
     width: max-content;
     display: flex;
@@ -7,13 +7,14 @@
     align-items: center;
     gap: 10px;
 }
-.logo-icon {
+// .logo-icon {
     
-}
+// }
 .logo-text {
     width: min-content;
     display: inline-block;
     font-family: var(--font-family-inter);
     font-weight: 700;
+    color: var(--color-text-principal);
 
 }
