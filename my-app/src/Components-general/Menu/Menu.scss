@@ -1,0 +1,9 @@
+.menu-container {
+    display: flex;
+    width: max-content;
+    height: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: normal;
+    gap:30px;
+}

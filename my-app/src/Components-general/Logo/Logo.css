@@ -10,8 +10,8 @@
 }
 
 .logo-text {
-  width: -moz-min-content;
-  width: min-content;
+  width: -moz-max-content;
+  width: max-content;
   display: inline-block;
   font-family: var(--font-family-inter);
   font-weight: 700;

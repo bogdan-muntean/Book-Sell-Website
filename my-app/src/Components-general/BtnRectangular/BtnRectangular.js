@@ -1,8 +1,13 @@
 import React from 'react'
+import "./BtnRectangular.css"
 
-function BtnRectangular() {
+function BtnRectangular(props) {
   return (
-    <div className='btn-rectangular'>Order Today</div>
+    <div className='btn-rectangular-container'>
+      <div className='btn-rectangular-text'>
+        {props.text}
+      </div>
+    </div>
   )
 }
 

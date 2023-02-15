@@ -2,10 +2,18 @@
   // display: inline-block;
   display: flex;
   height: 50px;
-  width: 67%;
+  width: 90%;
   margin: auto;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid white;
+  // border: 2px solid white;
+}
+.logo-container {
+  height: 100%;
+  width: max-content;
+}
+.buttons-container {
+  height: 100%;
+  width: max-content;
 }

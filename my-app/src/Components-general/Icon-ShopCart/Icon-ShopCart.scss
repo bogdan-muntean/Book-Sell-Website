@@ -1,0 +1,27 @@
+.icon-shopcart-container {
+    display: inline-block;
+    height: 35px;
+    width: 31.5px;
+    position: relative;
+}
+.icon-shopcart {
+    font-size: 26px;
+    line-height: 1;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: var(--color-text-principal);
+}
+.icon-shopcart-product-number {
+    display: block;
+    height: 19px;
+    width: 19px;
+    position: absolute;
+    text-align: center;
+    margin-right: 0px;
+    margin-left: auto;
+    right: 0;
+    top: 0;
+    border-radius: 50%;
+    background-color: var(--color-second);
+}

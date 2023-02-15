@@ -1,0 +1,18 @@
+.menu-buttons-container {
+    display: flex;
+    height: 100%;
+    width: max-content;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.menu-buttons-option {
+    display: block;
+    width: max-content;
+    font-size: var(--font-size-menu-buttons);
+    font-weight: var(--font-weight-menu-buttons);
+    color: var(--color-text-principal);
+    flex-shrink: 1;
+    flex-grow: 1;
+}

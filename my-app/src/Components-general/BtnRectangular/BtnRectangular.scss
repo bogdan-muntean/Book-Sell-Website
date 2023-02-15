@@ -1,0 +1,16 @@
+.btn-rectangular-container {
+    display: flex;
+    height: 100%;
+    width: 180px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--color-second);
+}
+.btn-rectangular-text {
+    display: block;
+    font-weight: var(--font-weight-the-biggest);
+    font-size: var(--font-size-paragraph);
+    color: var(--color-principal);
+}

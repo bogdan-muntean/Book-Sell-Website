@@ -1,5 +1,6 @@
 :root {
   --font-size-default: 15px;
+  --font-size-menu-buttons: 17px;
   --font-size-paragraph: 19px;
   --font-size-header-1: 65px;
   --font-size-header-2: calc(var(--font-size-header-1) - 10px);
@@ -7,6 +8,8 @@
   --font-size-header-4: calc(var(--font-size-header-1) - 33px);
   --font-size-header-5: calc(var(--font-size-header-1) - 41px);
   --font-size-header-6: calc(var(--font-size-header-1) - 43px);
+  --font-weight-menu-buttons: 500;
+  --font-weight-the-biggest: bold;
   --font-family-inter: "Inter", sans-serif;
   --color-principal: #1B3764;
   --color-second: #FFCA42;
